@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FinalDraft DocumentType="Screenplay" Template="Screenplay" Version="3">
+  <Content>
+    <Paragraph Type="Scene Heading">
+      <Text>INT. COFFEE SHOP - DAY</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>A busy coffee shop in downtown. SARAH (25), a writer, sits at a corner table typing furiously on her laptop. The place is filled with the hum of conversation and the hiss of espresso machines.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>SARAH</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>(muttering to herself)</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>Come on, inspiration, where are you?</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>She looks up from her screen, frustrated. A handsome stranger, MIKE (28), approaches her table.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>MIKE</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Excuse me, is this seat taken?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>SARAH</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>No, go ahead.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Mike sits down and pulls out his own laptop. They exchange a brief smile before returning to their work.</Text>
+    </Paragraph>
+  </Content>
+</FinalDraft>

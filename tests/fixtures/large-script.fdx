@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FinalDraft DocumentType="Screenplay" Template="Screenplay" Version="3">
+  <Content>
+    <Paragraph Type="Scene Heading">
+      <Text>FADE IN:</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>EXT. CITY STREET - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Rain falls heavily on a deserted city street. Neon signs flicker in the darkness. A lone figure, JAMES (35), walks down the sidewalk, his coat collar turned up against the weather.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>(to himself)</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>Another night, another case.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>He stops at a payphone and dials a number. The phone rings several times before someone answers.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>It's me. I found something.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>He listens intently, then hangs up. A car approaches from behind, its headlights cutting through the rain.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>INT. DETECTIVE OFFICE - DAY</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>James sits at his desk, surrounded by case files and coffee cups. His partner, LISA (30), enters the office carrying a stack of papers.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>LISA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>You look like you've been up all night.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>I have. This case is getting complicated.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>He shows her a photograph. Lisa studies it carefully.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>LISA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>This doesn't make sense. Why would he be there?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>That's what I'm trying to figure out.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>They both look up as the captain enters the office.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>CAPTAIN</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>James, Lisa, my office. Now.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>INT. CAPTAIN'S OFFICE - DAY</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The captain sits behind his desk, looking serious. James and Lisa take seats across from him.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>CAPTAIN</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>I just got a call from the mayor's office. They want this case wrapped up by the end of the week.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>That's impossible. We need more time.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>CAPTAIN</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>You don't have more time. The press is all over this.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>He hands them a newspaper. The headline reads "MURDER IN THE CITY" with a photo of the crime scene.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>LISA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>We can't rush this investigation.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>CAPTAIN</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>You don't have a choice. Get it done.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>James and Lisa exchange glances as they leave the office.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>EXT. ALLEY - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>James walks down a dark alley, flashlight in hand. He stops at a dumpster and begins searching through it.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>(muttering)</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>Come on, give me something.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>He finds a piece of fabric and examines it under his flashlight. Suddenly, he hears footsteps behind him.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Who's there?</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>He turns around, but the alley is empty. The footsteps echo off the walls, getting closer.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>INT. POLICE STATION - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>James rushes into the police station, out of breath. Lisa looks up from her desk.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>LISA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>What happened? You look like you've seen a ghost.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>I think someone was following me.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>He shows her the piece of fabric he found.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>LISA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>This looks like the same material from the crime scene.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Exactly. Someone wanted me to find this.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>They both realize the implications. The killer is taunting them.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>INT. JAMES' APARTMENT - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>James sits at his kitchen table, going through case files. The phone rings.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Hello?</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Silence on the other end. Then a voice.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>VOICE (V.O.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>You're getting close, detective. Too close.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>James grips the phone tightly.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Who are you?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>VOICE (V.O.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>You'll find out soon enough.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The line goes dead. James stares at the phone, then quickly dials Lisa's number.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>INT. LISA'S APARTMENT - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Lisa answers her phone, looking worried.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>LISA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>James? What's wrong?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>I just got a call from the killer.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>LISA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>What? Are you serious?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Dead serious. He knows we're onto him.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Lisa looks out her window, then back at the phone.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>LISA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>James, I think someone's watching my apartment.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Don't move. I'm coming over right now.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>He hangs up and rushes to his car.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>EXT. LISA'S APARTMENT BUILDING - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>James pulls up to Lisa's apartment building. He sees a figure standing in the shadows.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Freeze! Police!</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The figure turns and runs. James gives chase through the dark streets.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>EXT. ROOFTOP - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>James corners the suspect on a rooftop. The figure turns around, revealing his face.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>It's you. I should have known.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The suspect pulls out a gun. James draws his own weapon.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>SUSPECT</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>You should have stayed out of this, detective.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Gunshots ring out in the night. The suspect falls to the ground.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>INT. HOSPITAL ROOM - DAY</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>James lies in a hospital bed, bandaged but alive. Lisa sits beside him.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>LISA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>You're lucky to be alive.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>JAMES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>We got him. That's what matters.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The captain enters the room.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>CAPTAIN</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Good work, detective. The case is closed.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>James and Lisa exchange a smile. Justice has been served.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>FADE OUT.</Text>
+    </Paragraph>
+  </Content>
+</FinalDraft>

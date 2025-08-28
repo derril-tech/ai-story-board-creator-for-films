@@ -1,0 +1,160 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Worker Services Details",
+    "tags": ["storyboard", "workers"],
+    "style": "dark",
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Script Worker - Processing Rate",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(script_worker_requests_total[5m])",
+            "legendFormat": "{{method}} {{endpoint}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+      },
+      {
+        "id": 2,
+        "title": "Script Worker - Error Rate",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(script_worker_errors_total[5m])",
+            "legendFormat": "{{error_type}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}
+      },
+      {
+        "id": 3,
+        "title": "Illustration Worker - Frame Generation Rate",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(illustration_worker_requests_total{endpoint=\"/generate\"}[5m])",
+            "legendFormat": "Frame Generation"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8}
+      },
+      {
+        "id": 4,
+        "title": "Illustration Worker - Generation Errors",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(illustration_worker_errors_total{error_type=\"frame_generation\"}[5m])",
+            "legendFormat": "Generation Errors"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8}
+      },
+      {
+        "id": 5,
+        "title": "Animatic Worker - Rendering Rate",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(animatic_worker_requests_total{endpoint=\"/generate\"}[5m])",
+            "legendFormat": "Animatic Rendering"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 16}
+      },
+      {
+        "id": 6,
+        "title": "Export Worker - Export Rate",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(export_worker_requests_total{endpoint=\"/generate\"}[5m])",
+            "legendFormat": "Export Generation"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 16}
+      },
+      {
+        "id": 7,
+        "title": "Worker Response Times",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, rate(script_worker_request_duration_seconds_bucket[5m]))",
+            "legendFormat": "Script Worker"
+          },
+          {
+            "expr": "histogram_quantile(0.95, rate(illustration_worker_request_duration_seconds_bucket[5m]))",
+            "legendFormat": "Illustration Worker"
+          },
+          {
+            "expr": "histogram_quantile(0.95, rate(animatic_worker_request_duration_seconds_bucket[5m]))",
+            "legendFormat": "Animatic Worker"
+          },
+          {
+            "expr": "histogram_quantile(0.95, rate(export_worker_request_duration_seconds_bucket[5m]))",
+            "legendFormat": "Export Worker"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 24}
+      },
+      {
+        "id": 8,
+        "title": "Active Tasks by Worker",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "script_worker_active_tasks",
+            "legendFormat": "Script Worker"
+          },
+          {
+            "expr": "illustration_worker_active_tasks",
+            "legendFormat": "Illustration Worker"
+          },
+          {
+            "expr": "animatic_worker_active_tasks",
+            "legendFormat": "Animatic Worker"
+          },
+          {
+            "expr": "export_worker_active_tasks",
+            "legendFormat": "Export Worker"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 24}
+      },
+      {
+        "id": 9,
+        "title": "Worker Queue Backlog",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "storyboard_worker_queue_size",
+            "legendFormat": "{{worker}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 32}
+      },
+      {
+        "id": 10,
+        "title": "Worker Memory Usage",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "process_resident_memory_bytes{job=~\".*worker.*\"} / 1024 / 1024",
+            "legendFormat": "{{job}} (MB)"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 32}
+      }
+    ],
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "refresh": "30s"
+  }
+}

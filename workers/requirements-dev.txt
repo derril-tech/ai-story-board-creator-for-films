@@ -1,0 +1,11 @@
+-r requirements.txt
+
+# Development tools
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+black[jupyter]==23.11.0
+flake8-docstrings==1.7.0
+pre-commit==3.6.0
+mypy-extensions==1.0.0
+types-requests==2.31.0.10
+types-PyYAML==6.0.12.12

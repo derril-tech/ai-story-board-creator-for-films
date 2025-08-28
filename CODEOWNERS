@@ -1,0 +1,23 @@
+# Global owners
+* @derri
+
+# Frontend (Next.js)
+/frontend/ @derri
+
+# API (NestJS)
+/api/ @derri
+
+# Workers (Python/FastAPI)
+/workers/ @derri
+
+# Infrastructure
+/infra/ @derri
+
+# Documentation
+/docs/ @derri
+
+# Configuration files
+*.yml @derri
+*.yaml @derri
+*.json @derri
+*.md @derri

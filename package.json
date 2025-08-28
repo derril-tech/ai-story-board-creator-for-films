@@ -1,0 +1,45 @@
+{
+  "name": "ai-storyboard-creator",
+  "version": "1.0.0",
+  "description": "AI-powered storyboard creation platform for filmmakers",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "api",
+    "workers"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:api\" \"npm run dev:workers\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:api": "cd api && npm run start:dev",
+    "dev:workers": "cd workers && python -m uvicorn script_worker.main:app --reload --port 8001",
+    "build": "npm run build:frontend && npm run build:api",
+    "build:frontend": "cd frontend && npm run build",
+    "build:api": "cd api && npm run build",
+    "test": "npm run test:e2e && npm run test:unit",
+    "test:e2e": "playwright test",
+    "test:unit": "npm run test:unit:frontend && npm run test:unit:api",
+    "test:unit:frontend": "cd frontend && npm test",
+    "test:unit:api": "cd api && npm test",
+    "test:install": "playwright install",
+    "test:report": "playwright show-report",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:build": "docker-compose build",
+    "lint": "npm run lint:frontend && npm run lint:api",
+    "lint:frontend": "cd frontend && npm run lint",
+    "lint:api": "cd api && npm run lint",
+    "format": "npm run format:frontend && npm run format:api",
+    "format:frontend": "cd frontend && npm run format",
+    "format:api": "cd api && npm run format"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

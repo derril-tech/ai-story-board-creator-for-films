@@ -1,0 +1,92 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  - "storyboard_rules.yml"
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          - alertmanager:9093
+
+scrape_configs:
+  # Prometheus itself
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # Storyboard API
+  - job_name: 'storyboard-api'
+    static_configs:
+      - targets: ['api:3001']
+    metrics_path: '/health/metrics'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+
+  # Script Worker
+  - job_name: 'script-worker'
+    static_configs:
+      - targets: ['script-worker:8000']
+    metrics_path: '/metrics'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+
+  # Shot Worker
+  - job_name: 'shot-worker'
+    static_configs:
+      - targets: ['shot-worker:8000']
+    metrics_path: '/metrics'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+
+  # Dialogue Worker
+  - job_name: 'dialogue-worker'
+    static_configs:
+      - targets: ['dialogue-worker:8000']
+    metrics_path: '/metrics'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+
+  # Illustration Worker
+  - job_name: 'illustration-worker'
+    static_configs:
+      - targets: ['illustration-worker:8000']
+    metrics_path: '/metrics'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+
+  # Animatic Worker
+  - job_name: 'animatic-worker'
+    static_configs:
+      - targets: ['animatic-worker:8000']
+    metrics_path: '/metrics'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+
+  # Export Worker
+  - job_name: 'export-worker'
+    static_configs:
+      - targets: ['export-worker:8000']
+    metrics_path: '/metrics'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+
+  # Node Exporter (if running on host)
+  - job_name: 'node-exporter'
+    static_configs:
+      - targets: ['node-exporter:9100']
+    scrape_interval: 30s
+
+  # PostgreSQL
+  - job_name: 'postgres'
+    static_configs:
+      - targets: ['postgres-exporter:9187']
+    scrape_interval: 30s
+
+  # Redis
+  - job_name: 'redis'
+    static_configs:
+      - targets: ['redis-exporter:9121']
+    scrape_interval: 30s
